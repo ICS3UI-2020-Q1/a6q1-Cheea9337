@@ -41,6 +41,16 @@ public class Main {
 
     // let the user know the average
     System.out.println("The average height is " + average);
+
+    // let the user know the heights above average
+    System.out.println("The heights above average are ");
+
+    // use a for loop to find above average heights
+    for(int i = 0; i < heights.length; i++){
+      if(heights[i] > average){
+        System.out.println(heights[i]);
+      }
+    }
   
   
   }
